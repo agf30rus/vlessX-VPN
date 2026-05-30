@@ -2,11 +2,11 @@ import os
 
 # Telegram Bot API Token
 # Получите у @BotFather
-BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
+BOT_TOKEN = "8409532974:AAEjLoWh_FrkL2vjOWKYyPPLS49RPL6zlV0"
 
 # Список Telegram ID администраторов бота
 ADMIN_IDS = [
-    12345678,  # Замените на ваш реальный ID
+    7190177161,  # Замените на ваш реальный ID
 ]
 
 
