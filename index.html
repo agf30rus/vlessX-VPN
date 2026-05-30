@@ -1,1 +1,9 @@
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
+const tg = window.Telegram.WebApp;
+tg.ready();
+
+function selectDevice(deviceName) {
+    // Отправляем данные обратно в бота через MainButton или просто событие
+    console.log("Выбрано устройство:", deviceName);
+    tg.HapticFeedback.impactOccurred('light'); // Добавляет приятную тактильную отдачу
+}
